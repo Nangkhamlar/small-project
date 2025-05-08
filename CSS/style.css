@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 14;
+}
+
+:root{
+    --main-color:#8D35C0; 
+    --secondary-color:#F5F5F5; 
+}
+
+body ,button {
+    background: var(--main-color);
+}
+
+h5{
+    color:var(--main-color);
+    text-align: center;
+}
+img , h5 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+input{
+    border-color: var(--secondary-color);
+    font-size: 14px;
+    width:330px;
+    height:30px;
+   
+}
+.btn-login{
+    background-color: var(--main-color);
+    width:330px;
+    height:30px;
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 16px;
+    border-radius: 30px;
+    
+}
+
+.btn{
+    width:330px;
+    height:30px;
+    text-align: center;
+    background-color: var(--main-color);
+    border-radius: 6px;  
+    color:white;
+    margin-bottom: 16px;
+    padding-top: 2px;
+}
+
+.card{
+    padding: 35px; 
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.para{
+    text-align: end;
+    margin-bottom: 16px;
+}
+.register-list {
+    text-align: center;
+    
+}
+.register-list a{
+    text-decoration: none;
+    color:var(--main-color)
+}
