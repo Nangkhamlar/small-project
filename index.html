@@ -3,13 +3,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Small-Project</title>
-    <link rel="stylesheet" href="./CSS/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">   
+    <link rel="stylesheet" href="./css/lib/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">   
 </head>
-<body>
- <script src="./JS/script.js"></script>   
- <script src="./JS/lib/bootstrap.min.js"></script>
+<body style="background-color: #EEF4ED;">
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-light shadow-sm rounded">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/Logo.png" width="175" height="40" alt="">
+                </a>
+
+                <div class="nav-right">
+                    <div class="noti-icon text-center">
+                        <i class="fa-regular fa-bell"></i>
+                     </div>
+                     <img src="./images/avator.png" alt="">
+                </div>
+
+                 
+              </nav>          
+        </header>
+        <section>
+           <button class="btn btn1"><a href="create-item.html">Create-Item</a></button> 
+        </section>
+        <section>
+           <div class="table-card border">
+              <h5 class="text-start">Item Lists</h5>
+              <form class="search">
+               <div class="formgroup">
+                <input type="email" class="form-control "  name="" id="" placeholder="Category">
+               </div>
+                <div class="formgroup search-padding">
+                    <input type="password" class="form-control "  name="" id="" placeholder="Status">
+                </div>
+                <div class="search-padding">
+                    <button type="submit" class="btn btn1">Search</button>
+                </div>
+              </form>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>ItemName</th>
+                    <th>Category</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Action</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </td>
+                  </tr> 
+
+                  <tr>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </td>
+                  </tr> 
+
+                  <tr>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                    <td>
+                        <i class="fa-solid fa-trash"></i>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </td>
+                  </tr> 
+                   
+                 
+                </tbody>
+              </table>
+                
+              
+                
+           </div>
+        </section>
+    </div>
+
+    <script src="./js/lib/bootstrap.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/script.js"></script>   
 </body>
-</html>
+</html>    

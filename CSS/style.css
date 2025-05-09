@@ -42,6 +42,7 @@ input{
 .form-control{
     margin-bottom: 16px;
     border-radius: 30px;
+    background-color: var(--secondary-color);
     
 }
 
@@ -54,7 +55,14 @@ input{
     color:white;
     margin-bottom: 16px;
     padding-top: 2px;
+    
 }
+.btn3 a{
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
+
 
 .card{
     padding: 35px; 
@@ -74,4 +82,84 @@ input{
 .register-list a{
     text-decoration: none;
     color:var(--main-color)
+}
+
+/* ItemList */
+
+.btn1{
+  
+   border-radius: 6px;
+   width:104px;
+   height: 38px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.btn1 a{
+    list-style: none;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.table-card{
+    background-color:#ffffff; 
+    border-radius: 12px;
+    padding: 32px;
+}
+.table{
+    margin-top: 16px;
+   
+}
+
+.table head tr th {
+    background-color: var(--secondary-color);
+}
+
+.noti-icon{
+    width:25px;
+    height:25px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    text-align: center;
+}
+
+header{
+   border-radius: 12px;
+   margin-bottom: 16px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;   
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-padding{
+    padding-left: 16px;
+}
+
+/* createlist */
+.createItem-card{
+    border:1px solid var(--secondary-color);
+    padding:25px;
+    margin-top: 16px;
+    border-radius: 12px;
+    background-color: white;
+    
+
+}
+
+.btn1-outline{
+ background: #fff;
+ border-color: var(--main-color);
+}
+.btn1-outline a{
+    color:var(--main-color);
 }
