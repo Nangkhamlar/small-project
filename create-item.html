@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./css/style.css">   
 </head>
 <body style="background-color: #EEF4ED;">
-    <div class="container">
-        <header>
+    <div class="container-full">
+        <header style="background-color: #fff;">
             <nav class="navbar navbar-light  shadow-sm rounded">
                 <a class="navbar-brand" href="#">
                   <img src="./images/Logo1.png" width="175" height="40" alt="">
@@ -23,64 +23,78 @@
                         <i class="fa-regular fa-bell"></i>
                      </div>
                      <img src="./images/avator.png" alt="">
-                </div>
-
-                 
+                </div>         
               </nav>          
         </header>
+    
         <section>
            <div class="row">
-              <div class="col-md-4 m-auto">
-                  <div class="createItem-card">
-                     <h5 class="text-dark text-start">CreateItem</h5>
-                     <form action="">
-                        <div class="formgroup row">
-                            <label for="" class="col-sm-4 col-form-label">Item Name</label>
+             <div class="col-md-4 m-auto">
+  
+           <div class="card createItem-card">
+                    <h5 class="text-start ">CreateItem</h5>
+                    <form>
+                        <div class="form-group row">
+                          <label for="" class="col-sm-4 col-form-label">ItemName</label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="" >
+                          </div>
+                        </div>
+        
+                        <div class="form-group row">
+                            <label for="" class="col-sm-4 col-form-label">Category</label>
                             <div class="col-sm-8">
-                                <input type="password" class="form-control"  name="" id="">
+                              <input type="text" class="form-control" id="" >
                             </div>
-                        </div>
-                        <div class="formgroup row">
-                            <label for="" class="col-sm-4 col-form-label" >Category</label>
-                             <div class="col-sm-8">
-                                <input type="text" class="form-control"  name="" id="">
-                             </div>
-                        </div>
-
-                        <div class="formgroup row">
+                          </div>
+        
+                          <div class="form-group row">
                             <label for="" class="col-sm-4 col-form-label">Qty</label>
                             <div class="col-sm-8">
-                                <input type="number" class="form-control"  name="" id="">
+                              <input type="number" class="form-control" id="" >
                             </div>
-                        </div>
-
-                        <div class="formgroup row">
+                          </div>
+        
+                          <div class="form-group row">
                             <label for="" class="col-sm-4 col-form-label">Price</label>
                             <div class="col-sm-8">
-                                <input type="number" class="form-control"  name="" id="">
+                              <input type="number" class="form-control" id="" >
                             </div>
-                        </div>
-
-                        <div class="formgroup row">
+                          </div>
+        
+                          <div class="form-group row">
                             <label for="" class="col-sm-4 col-form-label">Amount</label>
                             <div class="col-sm-8">
-                                <input type="number" class="form-control"  name="" id="">
+                              <input type="number" class="form-control" id="" >
                             </div>
-                        </div>
+                          </div>
+        
+                          <div class="form-group row">
+                            <label for="inputPassword" class="col-sm-4 col-form-label">Status</label>
+                            <div class="col-sm-8 d-flex align-content-center">
+                                <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Active
+                                    <label class="form-check-label" for="radio1"></label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">non-Active
+                                    <label class="form-check-label" for="radio2"></label>
+                                  </div>
+                                 
+                            </div>
+                          </div>
 
-                        <div class="d-flex gap-3  justify-content-end">
-                            <button class="text-light p-2 btn btn1 btn1-outline"><a href="index.html">Cancel</a></button>
-                            <button class="text-light btn btn1"><a href="index.html">Save</a></button>
-                        </div>
-                        
-                     </form>
-                  </div>
-              </div>
+                          <div class="form">
+                            <div class="d-flex gap-3  justify-content-end">
+                                <button class="text-light p-2 btn  btn-outline"><a href="index.html">Cancel</a></button>
+                                <button class="text-light btn"><a href="index.html">Save</a></button>
+                            </div>
+                          </div>
+                    </form>
+                </div> 
+        </section>
+             </div>
            </div>
-        </section>
-        <section>
-            
-        </section>
     </div>
 
     <script src="./js/lib/bootstrap.min.js"></script>
@@ -88,3 +102,4 @@
     <script src="./js/script.js"></script>   
 </body>
 </html>    
+
